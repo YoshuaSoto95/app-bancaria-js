@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -6,4 +6,23 @@
         margin: 15px auto;
         width: 100%;
     }
+
+    .container .sidebar .card-bank {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 490px) {
+    .container .sidebar{
+        margin: 10px auto;
+        width: 90%;
+        height: 820px;
+    }
+
+    .container .column {
+        margin: 10px auto;
+        width: 90%;
+    }
+
 }

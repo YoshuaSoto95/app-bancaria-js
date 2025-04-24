@@ -51,6 +51,8 @@ body {
 
 .container .sidebar .card-bank img{
     width: 100%;
+    border-radius: 25px;
+    padding-bottom: 15px;
 }
 
 .container .sidebar .card-bank .account{

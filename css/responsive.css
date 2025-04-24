@@ -25,4 +25,39 @@
         width: 90%;
     }
 
+    .container .sidebar .card-bank .account,
+    .container .sidebar .card-bank .account-name {
+        display: none;
+    }
+
+    .container .sidebar .data-client .number-account-card {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 1px;
+        position: relative;
+        left: 10px;
+    }
+
+    .container .sidebar .data-client .number-account-card #get-number-account {
+        font-size: 10px;
+        padding-right: 15px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .container .sidebar .data-client .name-client,
+    .container .sidebar .data-client .balance,
+    .container .sidebar .data-client .movements,
+    .container .sidebar .data-client .number-account-card,
+    .container .column .movements .card .box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .sidebar .data-client .number-account-card,
+    .container .column .movements .card .box {
+        text-align: center;
+        margin-left: -15px;
+    }
 }

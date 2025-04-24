@@ -27,53 +27,65 @@ body {
 }
 
 .container .sidebar{
-    box-shadow: 5px 10px 15px rgba(255, 255, 255, 0.342);
+    box-shadow: 5px 10px 15px rgba(14, 14, 14, 0.89);
     border-radius: 15px;
     backdrop-filter: blur(10px);
     width: 500px;
-    height: 820px;
+    height: 860px;
 }
 
 .container .column{
-    box-shadow: 5px 10px 15px rgba(255, 255, 255, 0.342);
+    box-shadow: 5px 10px 15px rgba(14, 14, 14, 0.89);
     border-radius: 15px;
     backdrop-filter: blur(10px);
     width: 500px;
 }
 
 .container .sidebar .card-bank{
-    margin: 15px auto;
+    margin: 5px auto;
     padding: 25px;
-    border-radius: 25px;
     color: #fff;
     width: 100%;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .container .sidebar .card-bank img{
     width: 100%;
     border-radius: 25px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 .container .sidebar .card-bank .account{
     text-align: start;
     font-size: 18px;
     font-weight: bold;
+    position: fixed;
+    top: 220px;
+    left: 80px;
 }
 
 .container .sidebar .card-bank .account-name{
     text-align: start;
     font-size: 14px;
     font-weight: bold;
+    position: fixed;
+    top: 260px;
+    left: 80px;
 }
 
 .container .sidebar .data-client{
-    padding: 10px 15px;
+    padding: 15px 15px;
     margin: 25px;
     box-shadow: 1px 2px 5px rgba(0,0,0,0.75);
     border-radius: 15px;
     color: #fff;
     font-size: 10px;
+}
+
+.container .sidebar .data-client .number-account-card {
+    display: none;
 }
 
 .container .sidebar .data-client label{

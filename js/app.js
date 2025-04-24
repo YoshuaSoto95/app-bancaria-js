@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const accountNumber = document.getElementById("account-number-account");
     const getNameAccount = document.getElementById("get-name-account");
     const getBalanceAccount = document.getElementById("get-balance-account");
+    const getNumberAccount = document.getElementById("get-number-account");
     const getTransactionsAccount = document.getElementById("get-transactions-account");
     const formDeposit = document.getElementById("form-deposit");
     const formWithdraw = document.getElementById("form-withdraw")
@@ -71,6 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
         getNameAccount.innerHTML = client.name
         getBalanceAccount.innerHTML = "$ " + client.balance + " USD"
         getTransactionsAccount.innerHTML = client.transactions
+        getNumberAccount.innerHTML = client.account
     }
 
     showDataAccount();

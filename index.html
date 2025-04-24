@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Bank Account | Card</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="card-bank">
+                <div class="account">
+                    <p id="account-number-account"></p>
+                </div>
+                <div class="account-name">
+                    <p id="account-name-account"></p>
+                </div>
+            </div>
+            <div class="data-client">
+                <div class="name-client">
+                    <label for="">Client:</label>
+                    <p id="get-name-account"></p>
+                </div>
+                <div class="balance">
+                    <label for="">Balance:</label>
+                    <p id="get-balance-account"></p>
+                </div>
+                <div class="movements">
+                    <label for="">Transactions:</label>
+                    <p id="get-transactions-account"></p>
+                </div>
+            </div>
+            <div class="transactions">
+                <form action="" id="form-deposit">
+                    <label for="">Deposit</label>
+                    <input type="float" id="deposit">
+                    <button type="submit">Deposit</button>
+                </form>
+                <form action="" id="form-withdraw">
+                    <label for="">Withdraw</label>
+                    <input type="float" id="withdraw">
+                    <button type="submit">Withdraw</button>
+                </form>
+            </div>
+        </div>
+        <div class="column">
+            <h2>Movements</h2>
+            <div class="movements">
+                <div id="card" class="card"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
